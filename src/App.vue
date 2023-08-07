@@ -1,11 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WeatherPage from "./components/layout/WeatherPage.vue";
+</script>
 
 <template>
-  <div>
-    Погнали писать какую-нибудь дичь
-  </div>
+	<WeatherPage />
 </template>
-
-<style scoped>
-
-</style>

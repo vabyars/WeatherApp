@@ -1,24 +1,20 @@
 <script setup lang="ts">
 
+import WeatherSummary from "./WeatherSummary/WeatherSummary.vue";
+import TodayHighlights from "./TodayHighlights/TodayHighlights.vue";
+import CoordinatesInfo from "./Coordinates/CoordinatesInfo.vue";
+import HumidityInfo from "./Humidity/HumidityInfo.vue";
 </script>
 
 <template>
 	<div class="page">
-		<div class="weather-summary">
-			Какое-то самари по погоде
-		</div>
+		<WeatherSummary />
 
-		<div class="weather-today-highlights">
-			Подробная информация
-		</div>
+		<TodayHighlights />
 
-		<div class="coordinates">
-			Широта и долгота
-		</div>
+		<CoordinatesInfo />
 
-		<div class="humidity">
-			Влажность
-		</div>
+		<HumidityInfo />
 	</div>
 </template>
 
